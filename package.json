@@ -1,0 +1,43 @@
+{
+  "name": "@lxgicstudios/api-bench",
+  "version": "1.0.0",
+  "description": "Benchmark API endpoint performance with concurrency control. Measures latency percentiles, RPS, and error rates. CLI load testing tool.",
+  "main": "dist/index.js",
+  "bin": {
+    "api-bench": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "benchmark",
+    "api",
+    "performance",
+    "latency",
+    "load-testing",
+    "http",
+    "rps",
+    "concurrency",
+    "cli",
+    "stress-test",
+    "p95",
+    "p99"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/api-bench"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
